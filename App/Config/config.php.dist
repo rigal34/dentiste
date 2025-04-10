@@ -1,0 +1,8 @@
+<?php
+
+// Ce fichier est un modèle. Copiez-le en 'config.php' pour faire fonctionner l'application.
+
+define('DB_HOST', 'localhost');
+define('DB_NAME', 'dentiste');
+define('DB_USER', 'root');
+define('DB_PASS', '');
