@@ -1,0 +1,40 @@
+# 💼 Dossiers à ignorer pour un projet PHP MVC
+
+# 📦 Composer (généré automatiquement, inutile dans Git)
+vendor/
+
+# ⚠️ Fichiers sensibles ou liés à la config locale
+.env
+config.php
+*.env
+*.ini
+*.pem
+*.key
+*.crt
+
+# 🗃️ Fichiers de base de données temporaires
+*.sqlite
+*.db
+*.sql
+
+# 📁 Dossiers personnels ou IDE (VSCode, PhpStorm)
+.vscode/
+.idea/
+
+# 🧪 Fichiers de cache
+*.log
+*.cache
+*.lock
+*.bak
+*.tmp
+
+# 📷 Dossiers de fichiers uploadés (pas versionnés)
+public/uploads/
+public/images/uploads/
+
+# 🔒 Fichiers système
+.DS_Store
+Thumbs.db
+
+# 🧪 Tests (si tu en ajoutes plus tard)
+/tests/output/
