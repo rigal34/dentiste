@@ -25,24 +25,28 @@ Le site permet d’afficher :
 
 ## 📁 Structure du projet
 
-dentiste/ ├── App/ │ ├── Controllers/ │ ├── Models/ │ ├── Views/ │ └── Config/ ├── public/ │ └── index.php ├── .gitignore ├── composer.json ├── README.md
+```yaml
+dentiste/
+├── App/
+│   ├── Controllers/     # Contrôleurs : Gèrent la logique des pages
+│   ├── Models/          # Modèles : Interagissent avec la base de données
+│   ├── Views/           # Vues : Gèrent l'affichage (HTML)
+│   └── Config/          # Fichiers de configuration (BDD, etc.)
+├── public/
+│   ├── assets/          # Fichiers statiques (CSS, JS, images...)
+│   │   ├── css/         # Feuilles de style CSS
+│   │   ├── js/          # Scripts JavaScript
+│   │   └── images/      # Images
+│   └── index.php        # Point d'entrée unique de l'application
+├── .gitignore           # Fichiers/dossiers ignorés par Git
+├── composer.json        # Configuration Composer (dépendances, autoload)
+└── README.md            # Description du projet
+⚙️ Fonctionnalité testée
+[x] Base de données dentiste créée
+[x] Table articles créée dans PhpMyAdmin
+[x] Insertion de données via PhpMyAdmin
+[x] Affichage dynamique des articles dans /article
+👨‍💻 Auteur
+Développé avec passion par Bruno Rigal
+👉 https://github.com/rigal34
 
-yaml
-Copier
-Modifier
-
----
-
-## ⚙️ Fonctionnalité testée
-
-- [x] Base de données `dentiste` créée
-- [x] Table `articles` créée dans PhpMyAdmin
-- [x] Insertion de données via PhpMyAdmin
-- [x] Affichage dynamique des articles dans `/article`
-
----
-
-## 👨‍💻 Auteur
-
-Développé avec passion par **Bruno Rigal**  
-👉 [https://github.com/rigal34](https://github.com/rigal34)
